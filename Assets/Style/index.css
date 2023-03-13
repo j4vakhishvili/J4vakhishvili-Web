@@ -132,8 +132,28 @@ a{
 
 .swiper-slide img{
     border: 8px solid transparent;
-    border-image: url(../Media/Decoration/Down-Border.png) 22 stretch;
+    border-image: url(../Media/Decoration/BorderMagenta.png) 22 stretch;
     box-sizing: border-box;
+}
+
+.may26 img{
+    border-image: url(../Media/Decoration/BorderLightPink.png) 22 stretch;
+}
+
+.astrochess img{
+    border-image: url(../Media/Decoration/BorderPink.png) 22 stretch;
+}
+
+.hello img, .chessbook img, .gamingbuddy img{
+    border-image: url(../Media/Decoration/BorderPurple.png) 22 stretch;
+}
+
+.notimetodie img, .astrex img{
+    border-image: url(../Media/Decoration/BorderRed.png) 22 stretch;
+}
+
+.khinkali img, .wineties img{
+    border-image: url(../Media/Decoration/BorderGold.png) 22 stretch;
 }
 
 .may26 img, .hello img, .chessbook img, .astrex img{
