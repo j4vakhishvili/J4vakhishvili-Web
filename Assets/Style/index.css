@@ -1,0 +1,160 @@
+.decoration{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../Media/Decoration/BG-Decoration-Desktop.webp);
+    background-position: center 70%;
+    background-size: cover;
+}
+
+main{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 80%;
+    height: 97vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    /* z-index: 1; */
+}
+
+h1{
+    font-family: 'ENG';
+    font-size: 48px;
+}
+
+header, nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    margin-top: 16px;
+}
+
+.yt{
+    background: url(../Media/Icons/YT.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dr{
+    background: url(../Media/Icons/Dribbble.webp);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.be{
+    background: url(../Media/Icons/Be.webp);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ig{
+    background: url(../Media/Icons/IG.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fb{
+    background: url(../Media/Icons/FB.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a{
+    color: transparent;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.sep-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    z-index: 1;
+}
+
+.sep-nav p{
+    font-family: 'GEO';
+    font-size: 48px;
+    margin: 0;
+    color: #ff004ebf;
+    position: absolute;
+    margin-left: 32px;
+}
+
+.me-hover{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 102px;
+    opacity: 0;
+    transition: 0.1s;
+}
+
+.me-hover:hover{
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.swiper {
+    margin-top: 140px;
+    width: 100%;
+    height: 560px;
+    position: absolute;
+    cursor: move;
+}
+
+.swiper-slide img{
+    max-width: 550px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 70px;
+}
+
+img.may26{
+    transform: rotate(-2deg);
+    z-index: 1;
+    border: 8px solid transparent;
+    border-image: url(../Media/Decoration/Down-Border.png) 22 stretch;
+    box-sizing: border-box;
+}
+
+div.may26{
+    transform: scale(1.3) !important;
+    z-index: 1;
+}
+
+img.astrochess{
+    margin-top: 110px;
+    transform: scale(1.2) !important;
+    border: 8px solid transparent;
+    border-image: url(../Media/Decoration/Down-Border.png) 22 stretch;
+}
+
+img.hello{
+    transform: rotate(-2deg);
+    z-index: 1;
+    border: 8px solid transparent;
+    border-image: url(../Media/Decoration/Down-Border.png) 22 stretch;
+    box-sizing: border-box;
+}
+
+div.hello{
+    transform: scale(1.3) !important;
+    z-index: 1;
+}
