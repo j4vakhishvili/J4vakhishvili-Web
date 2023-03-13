@@ -210,3 +210,59 @@ a{
 .egirl img{
     margin-top: 120px;
 }
+
+@media only screen and (max-width: 1440px){
+    .swiper{
+        height: 470px;
+        margin-top: 80px;
+    }
+    .swiper-slide img {
+        max-width: 450px;
+    }
+    .sep-nav{
+        gap: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .decoration{
+        background: url(../Media/Decoration/Bg-Mobile.jpg);
+        /* background-position: center 70%;*/
+        background-size: cover; 
+    }
+    h1{
+        font-size: 32px;
+    }
+    header img{
+        height: 48px;
+        width: auto;
+    }
+    .swiper{
+        height: 470px;
+        margin-top: 40px;
+    }
+    .swiper-slide{
+        transform: scale(0.6);
+    }
+    .swiper-slide img {
+        max-width: 350px;
+        transform: translateX(30px);
+    }
+    .sep-nav{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+        gap: 24px;
+    }
+    nav{
+        width: 80%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    a{
+        font-size: 24px;
+    }
+    .dr, .be{
+        background-size: contain;
+    }
+}
