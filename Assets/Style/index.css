@@ -258,11 +258,32 @@ a{
         width: 80%;
         flex-direction: column-reverse;
         align-items: center;
+        gap: 16px;
     }
     a{
         font-size: 24px;
     }
     .dr, .be{
         background-size: contain;
+    }
+    .sep-nav img{
+        width: auto;
+        height: 180px;
+    }
+    .sep-nav p{
+        font-size: 32px;
+        margin-left: -48px;
+    }
+    .me-hover{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 365px){
+    .swiper-slide{
+        transform: scale(0.4);
+    }
+    .swiper-slide img {
+        transform: translateX(-10px);
     }
 }
