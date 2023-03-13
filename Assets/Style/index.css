@@ -34,10 +34,13 @@ header, nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 80%;
+    padding: 0 10%;
+    margin: 16px 0;
 }
-
-header{
-    margin-top: 16px;
+nav{
+    bottom: 0;
 }
 
 .yt{
@@ -117,6 +120,7 @@ a{
     height: 560px;
     position: absolute;
     cursor: move;
+    z-index: 0;
 }
 
 .swiper-slide img{
