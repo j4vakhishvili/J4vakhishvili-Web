@@ -8,7 +8,7 @@ body{
 
 @font-face {
     font-family: 'ENG';
-    src: url(../Fonts/Chalkduster.ttf);
+    src: url(../Fonts/Chalkduster.otf);
     font-display: fallback;
 }
 

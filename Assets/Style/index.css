@@ -152,9 +152,23 @@ img.hello{
     border: 8px solid transparent;
     border-image: url(../Media/Decoration/Down-Border.png) 22 stretch;
     box-sizing: border-box;
+    margin-top: 80px;
 }
 
 div.hello{
     transform: scale(1.3) !important;
     z-index: 1;
+}
+
+img.notimetodie{
+    transform: rotate(2deg);
+    z-index: 1;
+    border: 8px solid transparent;
+    border-image: url(../Media/Decoration/Down-Border.png) 22 stretch;
+    box-sizing: border-box;
+    margin-top: 150px;
+}
+
+div.notimetodie{
+    transform: scale(1.4) !important;
 }
