@@ -48,6 +48,15 @@ nav{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.yt:hover{
+    background: url(../Media/Icons/YT-hover.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
 }
 
 .dr{
@@ -55,6 +64,15 @@ nav{
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.dr:hover{
+    background: url(../Media/Icons/Dribbble-hover.webp);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
 }
 
 .be{
@@ -62,6 +80,15 @@ nav{
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.be:hover{
+    background: url(../Media/Icons/Be-hover.webp);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
 }
 
 .ig{
@@ -69,6 +96,15 @@ nav{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.ig:hover{
+    background: url(../Media/Icons/IG-hover.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
 }
 
 .fb{
@@ -76,6 +112,15 @@ nav{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.fb:hover{
+    background: url(../Media/Icons/FB-hover.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
 }
 
 a{
@@ -132,28 +177,28 @@ a{
 
 .swiper-slide img{
     border: 8px solid transparent;
-    border-image: url(../Media/Decoration/BorderMagenta.png) 22 stretch;
+    border-image: url(../Media/Decoration/BorderMagenta.webp) 22 stretch;
     box-sizing: border-box;
 }
 
 .may26 img{
-    border-image: url(../Media/Decoration/BorderLightPink.png) 22 stretch;
+    border-image: url(../Media/Decoration/BorderLightPink.webp) 22 stretch;
 }
 
 .astrochess img{
-    border-image: url(../Media/Decoration/BorderPink.png) 22 stretch;
+    border-image: url(../Media/Decoration/BorderPink.webp) 22 stretch;
 }
 
 .hello img, .chessbook img, .gamingbuddy img{
-    border-image: url(../Media/Decoration/BorderPurple.png) 22 stretch;
+    border-image: url(../Media/Decoration/BorderPurple.webp) 22 stretch;
 }
 
 .notimetodie img, .astrex img{
-    border-image: url(../Media/Decoration/BorderRed.png) 22 stretch;
+    border-image: url(../Media/Decoration/BorderRed.webp) 22 stretch;
 }
 
 .khinkali img, .wineties img{
-    border-image: url(../Media/Decoration/BorderGold.png) 22 stretch;
+    border-image: url(../Media/Decoration/BorderGold.webp) 22 stretch;
 }
 
 .may26 img, .hello img, .chessbook img, .astrex img{
@@ -226,7 +271,7 @@ a{
 
 @media only screen and (max-width: 768px){
     .decoration{
-        background: url(../Media/Decoration/Bg-Mobile.jpg);
+        background: url(../Media/Decoration/Bg-Mobile.webp);
         /* background-position: center 70%;*/
         background-size: cover; 
     }
