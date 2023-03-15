@@ -51,10 +51,31 @@
         </section>
         <section class="sep-nav">
             <p>მე</p>
-            <img src="Assets/Media/Decoration/me.webp" alt="Nick J4vakhishvili">
-            <img src="Assets/Media/Decoration/me-hover.webp" alt="me-hover" class="me-hover">
+            <img src="Assets/Media/Decoration/me.webp" alt="Nick J4vakhishvili" onclick="openModal()">
+            <img src="Assets/Media/Decoration/me-hover.webp" alt="me-hover" class="me-hover" onclick="openModal()">
         </section>
     </nav>
+    <section class="modal">
+        <section class="coloseModal" onclick="closeModal()"></section>
+        <section class="modalBg">
+            <section class="sep-modal">
+                <h2>გამარჯობა</h2>
+                <p>შენ ჩემს ციფრულ პორტფოლიოში მოხვდი </p><div class="smile"></div><br>
+                <p>
+                    მე ვარ ნიკოლოზ ჯავახიშვილი, გრაფიკული
+                    დიზაინერი, ფრონტენდ დეველოპერი, იუნითი
+                    დეველოპერი და ფოტოგრაფი, აქ შენ შეგიძლია
+                    გაეცნო და თვალი შეავლო ჩემს ნამუშევრებს. 
+                </p>
+            </section>
+            <section class="sep-modal">
+                <img src="Assets/Media/Decoration/PictureMe.png" alt="Nick Javakhishvili ნიკა ჯავახიშვილი">
+                <p class="lang">ენები</p><br>
+                <p class="lang-minor">ქართული</p><div class="grade grade-A"></div>
+                <p class="lang-minor">ინგლისური</p><div class="grade grade-B"></div>
+            </section>
+        </section>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
     <script src="Assets/Script/index.js" defer></script>
 </body>

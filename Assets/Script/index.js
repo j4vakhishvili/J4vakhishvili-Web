@@ -1,3 +1,4 @@
+//swiper
 const swiper = new Swiper('.swiper', {
   // Default parameters
   slidesPerView: 1,
@@ -21,3 +22,14 @@ const swiper = new Swiper('.swiper', {
     }
   }
 })
+
+//modal
+let modal = document.querySelector('.modal');
+function openModal(){
+  modal.style.transform = "translateY(0)";
+  modal.style.opacity = "1";
+}
+function closeModal(){
+  modal.style.transform = "translateY(-100%)";
+  modal.style.opacity = "0";
+}
