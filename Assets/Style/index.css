@@ -283,7 +283,7 @@ p{
 .modalBg{
     height: 98%;
     width: 88%;
-    background: url(../Media/Decoration/Bg-Modal-Desktop.png);
+    background: url(../Media/Decoration/Bg-Modal-Desktop.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -317,7 +317,7 @@ h2, .sep-modal p{
 .smile{
     width: 30px;
     height: 30px;
-    background: url(../Media/Decoration/Smile.png);
+    background: url(../Media/Decoration/Smile.webp);
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
@@ -325,7 +325,7 @@ h2, .sep-modal p{
 
 .sep-modal:first-child{
     margin-left: 8%;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .sep-modal img{
@@ -344,13 +344,13 @@ h2, .sep-modal p{
 }
 
 .grade-A{
-    background: url(../Media/Decoration/A+.png);
+    background: url(../Media/Decoration/A+.webp);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .grade-B{
-    background: url(../Media/Decoration/B.png);
+    background: url(../Media/Decoration/B.webp);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -370,7 +370,7 @@ h2, .sep-modal p{
     width: 30px;
     height: 40px;
     display: inline-block;
-    background: url(../Media/Icons/edu\ icon.png);
+    background: url(../Media/Icons/edu\ icon.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -452,6 +452,12 @@ img.twbc{
 div.twbc:hover > img.twbc{
     opacity: 1;
     transition: 0.3s;
+}
+
+@media only screen and (max-width: 1640px){
+    h2, .sep-modal p {
+        font-size: 36px;
+    }
 }
 
 @media only screen and (max-width: 1600px){
