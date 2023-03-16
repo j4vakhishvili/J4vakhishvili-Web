@@ -267,9 +267,12 @@ p{
 
 .modal{
     position: fixed;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0);
     display: flex;
     justify-content: center;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: 0.3s;
 }
 
 .coloseModal{
@@ -278,14 +281,16 @@ p{
 }
 
 .modalBg{
-    width: 87.5%;
+    height: 98%;
+    width: 88%;
     background: url(../Media/Decoration/Bg-Modal-Desktop.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     display: flex;
+    bottom: 0;
 }
 
 .lang, h2{
@@ -294,7 +299,9 @@ p{
 }
 
 h2, .sep-modal p{
-    font-size: 44px;
+    font-size: 42px;
+    font-weight: normal;
+    margin: 0;
 }
 
 .lang{
@@ -317,7 +324,7 @@ h2, .sep-modal p{
 }
 
 .sep-modal:first-child{
-    margin: 8%;
+    margin-left: 8%;
     margin-top: 10%;
 }
 
@@ -328,6 +335,132 @@ h2, .sep-modal p{
 .sep-modal:last-child{
     margin-right: 8%;
     margin-top: 12px;
+}
+
+.grade{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.grade-A{
+    background: url(../Media/Decoration/A+.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grade-B{
+    background: url(../Media/Decoration/B.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.language{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.langWithGrade{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bubleicon{
+    width: 30px;
+    height: 40px;
+    display: inline-block;
+    background: url(../Media/Icons/edu\ icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 12px;
+}
+
+.edu{
+    margin-top: 48px;
+    display: inline-block;
+}
+
+.education img{
+    height: 80px;
+    width: auto;
+    mix-blend-mode: multiply;
+    object-fit: none;
+}
+
+.education{
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.icon-edu{
+    display: flex;
+    flex-direction: column;
+}
+
+.hover{
+    width: 110px !important;
+}
+
+img.gita{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+div.gita:hover > img.gita{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+img.itStep{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+div.itStep:hover > img.itStep{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+img.GeoLab{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+div.GeoLab:hover > img.GeoLab{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+img.BTU{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+div.BTU:hover > img.BTU{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+img.twbc{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+div.twbc:hover > img.twbc{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1600px){
+    .swiper{
+        margin-top: 90px;
+    }
+    .swiper-slide img{
+        max-width: 450px;
+    }
 }
 
 @media only screen and (max-width: 1440px){
@@ -359,9 +492,6 @@ h2, .sep-modal p{
     .swiper{
         height: 470px;
         margin-top: 40px;
-    }
-    .swiper-slide{
-        transform: scale(0.6);
     }
     .swiper-slide img {
         max-width: 350px;
@@ -399,9 +529,6 @@ h2, .sep-modal p{
 }
 
 @media only screen and (max-width: 365px){
-    .swiper-slide{
-        transform: scale(0.4);
-    }
     .swiper-slide img {
         transform: translateX(-10px);
     }

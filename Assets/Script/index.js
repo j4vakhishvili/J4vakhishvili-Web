@@ -27,9 +27,11 @@ const swiper = new Swiper('.swiper', {
 let modal = document.querySelector('.modal');
 function openModal(){
   modal.style.transform = "translateY(0)";
+  modal.style.background = "rgba(0, 0, 0, 0.3)";
   modal.style.opacity = "1";
 }
 function closeModal(){
-  modal.style.transform = "translateY(-100%)";
+  modal.style.transform = "translateY(100%)";
+  modal.style.background = "rgba(0, 0, 0, 0.3)";
   modal.style.opacity = "0";
 }
