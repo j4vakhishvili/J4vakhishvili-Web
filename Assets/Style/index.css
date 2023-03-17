@@ -284,7 +284,7 @@ p{
     height: 98%;
     width: 88%;
     background: url(../Media/Decoration/Bg-Modal-Desktop.webp);
-    background-size: contain;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
     position: fixed;
@@ -367,10 +367,10 @@ h2, .sep-modal p{
 }
 
 .bubleicon{
-    width: 30px;
-    height: 40px;
+    width: 18px;
+    height: 28px;
     display: inline-block;
-    background: url(../Media/Icons/edu\ icon.webp);
+    background: url(../Media/Icons/edu-icon.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -456,7 +456,10 @@ div.twbc:hover > img.twbc{
 
 @media only screen and (max-width: 1640px){
     h2, .sep-modal p {
-        font-size: 36px;
+        font-size: 34px;
+    }
+    .sep-modal:last-child img {
+        width: 450px;
     }
 }
 
@@ -479,6 +482,65 @@ div.twbc:hover > img.twbc{
     }
     .sep-nav{
         gap: 12px;
+    }
+    h2, .sep-modal p {
+        font-size: 28px;
+    }
+    .education img {
+        height: 60px;
+        object-fit: scale-down;
+    }
+    .modalBg {
+        height: 90%;
+    }
+    .smile {
+        width: 24px;
+        height: 24px;
+        background-size: cover;
+    }
+    .bubleicon {
+        width: 24px;
+        height: 34px;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 1140px){
+    .modalBg{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .lang, .language{
+        display: none;
+    }
+    .sep-modal:last-child {
+        margin:0;
+    }
+    .sep-modal:first-child {
+        margin: 0 8% 0 8%;
+    }
+    .sep-modal:last-child img {
+        width: 300px;
+    }
+    .hover{
+        display: none;
+    }
+    .education img {
+        height: 48px;
+    }
+    h2, .sep-modal p {
+        font-size: 24px;
+    }
+    .smile {
+        width: 14px;
+        height: 14px;
+    }
+    .bubleicon {
+        width: 16px;
+        height: 24px;
+    }
+    .education{
+        margin-bottom: 16px;
     }
 }
 
@@ -537,5 +599,8 @@ div.twbc:hover > img.twbc{
 @media only screen and (max-width: 365px){
     .swiper-slide img {
         transform: translateX(-10px);
+    }
+    .sep-modal:last-child img {
+        width: 230px;
     }
 }
