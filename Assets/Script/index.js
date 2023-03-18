@@ -26,6 +26,8 @@ const swiper = new Swiper('.swiper', {
 //modal
 let modal = document.querySelector('.modal');
 let url = window.location.href;
+console.log(window.location.href);
+console.log(url+"/#about");
 function openModal(){
   modal.style.transform = "translateY(0)";
   modal.style.background = "rgba(0, 0, 0, 0.3)";
@@ -37,7 +39,7 @@ function closeModal(){
   modal.style.opacity = "0";
 }
 
-if (url = "https://j4vakhishvli.tk/#about"){
+if (url == "https:/j4vakhishvili.tk/#about"){
   openModal();
 } else{
   closeModal();
