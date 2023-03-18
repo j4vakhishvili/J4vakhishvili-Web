@@ -25,6 +25,7 @@ const swiper = new Swiper('.swiper', {
 
 //modal
 let modal = document.querySelector('.modal');
+let url = window.location.href;
 function openModal(){
   modal.style.transform = "translateY(0)";
   modal.style.background = "rgba(0, 0, 0, 0.3)";
@@ -34,4 +35,10 @@ function closeModal(){
   modal.style.transform = "translateY(100%)";
   modal.style.background = "rgba(0, 0, 0, 0.3)";
   modal.style.opacity = "0";
+}
+
+if (url = "https://j4vakhishvli.tk/#about"){
+  openModal();
+} else{
+  closeModal();
 }
